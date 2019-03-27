@@ -1,0 +1,17 @@
+body {
+	font-family: Helvetica Neue;s
+}
+p{
+	line-height: 0.3;
+}
+header {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	background-color: #FFF;
+	border-bottom: 1px solid #ABB8C1;
+}
+header img {
+  width: 28px;
+  height: 28px;
+}
