@@ -1,9 +1,11 @@
 body {
 	font-family: Helvetica Neue;
+	background-color: #F6F7F8;
+	margin-top: 0px;
 }
 
 p {
-	line-height: 0.3
+	line-height: 0.1
 }
 header {
 	display: flex;
@@ -17,21 +19,43 @@ header img {
 	width: 30px;
 	height: 30px;
 }
+.icon {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.icon img:hover {
+	color: #0000FF;
+}
 a {
  	text-decoration: none;
 }
 .home {
 	padding-left: 120px;
+	padding-right: 70px;
+}
+.hash {
+	width: 25px;
+	height: 25px;
+	padding-bottom: 10px;
+	padding-right: 70px;
+}
+.ring {
+	padding-right: 70px;
+}
+.mail {
+	padding-right: 30px;
 }
  header .search {
-	height: 30px;
-	width: 230px;
+	height: 35px;
+	width: 300px;
 	border:1px solid #e6eaed;
 	border-radius: 16px;
 	background-image: url("baseline-search-24px.svg");
 	background-repeat: no-repeat;
 	background-position: right center;
 	outline: none;
+	background-color: #F6F7F8;
 }
 ::placeholder {
   	font-size: 15px;
@@ -49,9 +73,146 @@ a {
 .pic h5 {
 	color: black;
 }
-
-main {
-	display: flex;
+.centre {
+	width: 75%;
 	
+	padding-left: 170px;
+}
+.homes {
+	display: inline-flex;
+	width: 70%;
+  	height: 50px;
+  	background-color: #ffffff;
+  	border-bottom: 1px solid #e6eaed;
 }
 
+.homes h2 {
+	font-family: Arial Black;
+	font-size: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.what {
+  	width: 70%;
+  	height: 60px;
+  	display: flex;
+  	background-color: #ffffff;
+  	border-bottom: 1px solid #e6eaed; 
+}
+
+.what img {
+  	width: 40px;
+ 	height: 40px;
+  	position: absolute;
+  	margin-left: 30px;
+  	margin-top: 10px;
+  	border-radius: 50%;
+}
+
+.what input {
+	width: 500px;
+	height: 34px;
+	position: relative;
+	margin-left: 80px;
+	margin-top: 10px;
+	border-radius: 16px;
+	border:1px solid #e6eaed;
+	/*background-image: url("outline-image-24px.svg");*/
+	background-repeat: no-repeat;
+	background-position: right ;
+	outline: none;
+	background-color: #F6F7F8;
+}
+
+.centre .section {
+	width: 70%;
+  	height: 120px;
+  	border: 1px solid #e6eaed;
+  	background-color: #FFF;
+}
+.section .user {
+ 	width: 15px;
+ 	height: 15px;	
+  	position: absolute;
+  	margin-left: 90px;
+  	margin-top: 5px;
+}
+.section .ref {
+	font-size: 12px;
+	position: relative;
+	line-height: 0.0;
+	padding-bottom: 0px;
+	margin-left: 110px;
+	margin-top: 5px
+	margin-bottom: 0px;
+	color: #62737c;
+}
+
+.section img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 0px;
+	border-radius: 50%;
+}
+.section h4 {
+	position: absolute;
+  	margin-left: 90px;
+  	margin-top: 1px;
+}
+.section .cal {
+	font-size: 14px;
+  	position: absolute;
+  	margin-left: 180px;
+  	margin-top: 10px;	
+  	padding-bottom: 100px;
+  	color: #ABB8C1;
+}
+.section .luc {
+	font-size: 14px;
+  	margin-left: 90px;
+  	margin-top: 30px;
+  	margin-bottom: 0px;
+  	line-height: 1.5;
+}
+.section .com {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 15px;
+}
+
+.section .retweet {
+  	width: 22px;
+  	height: 22px;
+  	position: absolute;
+  	margin-left: 170px;
+ 	margin-top: 15px;
+}
+.section .like {
+  	width: 17px;
+  	height: 17px;
+  	position: absolute;
+  	margin-left: 250px;
+ 	margin-top: 18px;
+}
+.section .c{
+	font-size: 12px;
+	position: absolute;
+	margin-left: 120px;
+	margin-top: 25px;
+}
+.section .r{
+	font-size: 12px;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 25px;
+}
+.section .l{
+	font-size: 12px;
+	position: absolute;
+	margin-left: 275px;
+	margin-top: 25px;
+	}
