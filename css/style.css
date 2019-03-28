@@ -1,17 +1,57 @@
 body {
-	font-family: Helvetica Neue;s
+	font-family: Helvetica Neue;
 }
-p{
-	line-height: 0.3;
+
+p {
+	line-height: 0.3
 }
 header {
-	position: relative;
 	display: flex;
-	overflow: hidden;
+	align-items: center;
+	justify-content: space-around;
 	background-color: #FFF;
+	padding-bottom: 8px;
 	border-bottom: 1px solid #ABB8C1;
 }
 header img {
-  width: 28px;
-  height: 28px;
+	width: 30px;
+	height: 30px;
 }
+a {
+ 	text-decoration: none;
+}
+.home {
+	padding-left: 120px;
+}
+ header .search {
+	height: 30px;
+	width: 230px;
+	border:1px solid #e6eaed;
+	border-radius: 16px;
+	background-image: url("baseline-search-24px.svg");
+	background-repeat: no-repeat;
+	background-position: right center;
+	outline: none;
+}
+::placeholder {
+  	font-size: 15px;
+}
+.pic {
+	display: flex;
+	padding-right: 120px;
+}
+.pic img {
+	width: 40px;
+	height: 40px;
+	padding-top: 10px;
+	border-radius: 50%; 
+}
+.pic h5 {
+	color: black;
+}
+
+main {
+	display: flex;
+	
+}
+
