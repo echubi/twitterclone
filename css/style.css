@@ -252,17 +252,12 @@ main {
 	margin-left: 15px;
 	border-radius: 50px;
 	border: 1px solid #FFF;
-  	
-
 }
-
 .follow .first {
 	position: absolute;
 	padding-left: 95px;
 	margin-top: 10px;
 }
-
-
 .follow .lady {
 	font-size: 13px;
 	position: absolute;
@@ -271,7 +266,6 @@ main {
 	padding-bottom: 180px;
 	margin-top:  15px;
 }
-
 .follow .btn1 {
 	font-size: 13px;
 	position: absolute;
@@ -286,7 +280,6 @@ main {
 	color: #99a8b2;
 	background-color: #FFF;
 }
-
 .follow .img2 {
 	width: 70px;
 	height: 70px;
@@ -295,24 +288,18 @@ main {
 	margin-left: 15px;
 	margin-top: 95px;
 	border: 1px solid #FFF;
-
 }
-
-
 .follow .dipo {
 	position: absolute;
 	padding-left: 95px;
 	margin-top: 105px;  	
 }
-
-
 .follow .ogbe {
 	font-size: 13px;
 	position: absolute;
 	margin-top:  110px;
 	padding-left: 150px;
 }
-
 .follow .btn2 {
 	font-size: 13px;
 	position: absolute;
@@ -327,13 +314,11 @@ main {
 	color: #99a8b2;
 	background-color: #FFF;
 }
-
 .credit {
 	width: 70%;
 	height: 170px;
 	background-color: #FFF;
 }
-
 .credit p {
 	font-size: 13px;
 	margin-left: 20px; 
@@ -342,8 +327,6 @@ main {
 	border-bottom: 1px solid ;
 	color: #ABB8C1;
 }
-
-
 .credit .advert {
   	border: 0px
 }
