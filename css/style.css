@@ -79,7 +79,6 @@ main {
 }
 .centre {
 	width: 75%;
-	
 	padding-left: 170px;
 }
 .homes {
@@ -181,11 +180,11 @@ main {
   	line-height: 1.5;
 }
 .section .com {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  margin-left: 90px;
-  margin-top: 15px;
+  	width: 20px;
+  	height: 20px;
+  	position: absolute;
+  	margin-left: 90px;
+  	margin-top: 15px;
 }
 
 .section .retweet {
@@ -221,12 +220,15 @@ main {
 	margin-top: 25px;
 }
 
+.right {
+	width: 50%;
+}
 .follow p {
-  font-size: 18px;
-  padding-left: 15px;
-  padding-bottom: 10px;
-  padding-top: 5px;
-  color: #ABB8C1;
+  	font-size: 18px;
+  	padding-left: 15px;
+  	padding-bottom: 10px;
+  	padding-top: 5px;
+  	color: #ABB8C1;
 }
 .follow .who {
 	padding-left: 10px;
@@ -338,5 +340,5 @@ main {
 
 
 .credit .advert {
-  border: 0px
+  	border: 0px
 }
