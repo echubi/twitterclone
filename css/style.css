@@ -79,7 +79,7 @@ main {
 }
 .centre {
 	width: 70%;
-	padding-left: 170px;
+	padding-left: 100px;
 }
 .homes {
 	display: inline-flex;
@@ -223,6 +223,7 @@ main {
 
 .right {
 	width: 70%;
+	margin-right: 0px;
 }
 .follow {
 	width: 70%;
@@ -238,6 +239,7 @@ main {
 }
 .follow .who {
 	padding-left: 10px;
+	margin-top: 20px;
 	color: #000;
 }
 .follow .refresh {
