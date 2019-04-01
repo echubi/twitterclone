@@ -32,7 +32,7 @@ a {
  	text-decoration: none;
 }
 .home {
-	padding-left: 120px;
+	padding-left: 150px;
 	padding-right: 70px;
 }
 .hash {
@@ -63,6 +63,7 @@ a {
 }
 main {
 	display: flex;
+	width: 100%;
 }
 .pic {
 	display: flex;
@@ -78,8 +79,7 @@ main {
 	color: black;
 }
 .centre {
-	width: 70%;
-	padding-left: 100px;
+	padding-left: 130px;
 }
 .homes {
 	display: inline-flex;
@@ -130,7 +130,7 @@ main {
 
 .centre .section {
 	width: 70%;
-  	height: 120px;
+  	height: 15%;
   	border: 1px solid #e6eaed;
   	background-color: #FFF;
 }
@@ -139,7 +139,10 @@ main {
  	height: 15px;	
   	position: absolute;
   	margin-left: 90px;
-  	margin-top: 5px;
+  	/*margin-top: 5px;*/
+}
+div .tweet {
+	max-height: 900px;
 }
 .section .ref {
 	font-size: 12px;
@@ -156,7 +159,7 @@ main {
 	height: 50px;
 	position: absolute;
 	margin-left: 30px;
-	margin-top: 15px;
+	/*margin-top: 15px;*/
 	border-radius: 50%;
 }
 .section h4 {
@@ -166,19 +169,18 @@ main {
   	margin-bottom: 0px;
 }
 .section .cal {
-	font-size: 14px;
+	font-size: 16px;
   	position: absolute;
   	margin-left: 180px;
   	margin-top: 10px;	
-  	padding-bottom: 100px;
   	color: #ABB8C1;
 }
 .section .luc {
-	font-size: 14px;
+	font-size: 16px;
   	margin-left: 90px;
   	margin-top: 20px;
   	margin-bottom: 0px;
-  	line-height: 1.5;
+  	line-height: 19.2px;
 }
 .section .com {
   	width: 20px;
